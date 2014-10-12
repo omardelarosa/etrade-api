@@ -5,7 +5,9 @@ Module is beta, not at a completed first release.
 The etrade-api module is a node.js implementation of the etrade RESTful api. It handles authorization, accounts, order, rate limits, and more.
 
 ## Installation
+```
 npm install etrade-api
+```
 
 ## Usage
 ### Authorization
