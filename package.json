@@ -1,0 +1,21 @@
+{
+  "name": "etrade-api",
+  "version": "0.0.0",
+  "description": "Node.js sdk for etrade api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "etrade",
+    "api",
+    "investment"
+  ],
+  "author": "M. Elliot Frost",
+  "license": "ISC",
+  "dependencies": {
+    "oauth-sign": "^0.4.0",
+    "querystring": "^0.2.0",
+    "request": "^2.45.0"
+  }
+}
