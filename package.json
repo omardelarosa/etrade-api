@@ -1,6 +1,6 @@
 {
   "name": "etrade-api",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Node.js sdk for etrade api.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,8 @@
     "uuid": "^2.0.1"
   },
   "devDependencies": {
+    "clipboard": "^0.1.1",
+    "copy-paste": "^1.0.2",
     "fileobj": "0.0.0",
     "nconf": "^0.7.1",
     "phantom": "^0.7.2",
