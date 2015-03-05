@@ -1,6 +1,6 @@
 {
   "name": "etrade-api",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Node.js sdk for etrade api.",
   "main": "index.js",
   "scripts": {
@@ -14,19 +14,11 @@
   "author": "M. Elliot Frost",
   "license": "ISC",
   "dependencies": {
-    "jquerygo": "0.0.16",
-    "oauth-sign": "^0.4.0",
-    "oauth-signature": "^1.3.0",
     "querystring": "^0.2.0",
-    "request": "^2.45.0",
+    "request": "^2.53.0",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
-    "clipboard": "^0.1.1",
-    "copy-paste": "^1.0.2",
-    "fileobj": "0.0.0",
-    "nconf": "^0.7.1",
-    "phantom": "^0.7.2",
-    "prompt": "^0.2.14"
+    "nconf": "^0.7.1"
   }
 }
