@@ -20,7 +20,7 @@ the following items:
 1. Get a request token
 ```js
 var etrade = require('etrade-api');
-etrade.getRequestToken(key, secret, cb);
+etrade.requestToken(key, secret, cb);
 ```
 The callback for the Request Token method will take for argument:
   - _err_: If any error occurs throughout the process, the err argument will have a hold to this.
@@ -38,7 +38,7 @@ Follow these steps to get the verification code.
 3. Get an access token
 ```js
 var etrade = require('etrade-api');
-etrade.getAccessToken(verificationCode, key, secret, request_token, request_token_secret, cb); 
+etrade.accessToken(verificationCode, key, secret, request_token, request_token_secret, cb); 
 ```
 The callback for the Access Token method will take for argument:
   - _err_: If any error occurs throughout the process, the err argument will have a hold to this.
